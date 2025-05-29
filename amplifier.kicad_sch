@@ -1664,28 +1664,6 @@
 		)
 		(uuid "f4abc1ec-36e5-433b-bde5-c29da5527b0f")
 	)
-	(global_label "MIC+"
-		(shape input)
-		(at 124.46 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7390404f-7476-465a-90da-0cd0b6013be4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5762 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "VBIAS"
 		(shape input)
 		(at 129.54 95.25 90)
@@ -1696,6 +1674,17 @@
 			(justify left)
 		)
 		(uuid "01423468-de5f-4581-b358-fbe17917769e")
+	)
+	(hierarchical_label "MIC+"
+		(shape input)
+		(at 124.46 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13e5ac3f-bb52-4022-9a73-412925bcdb8b")
 	)
 	(hierarchical_label "AMPOUT"
 		(shape output)
@@ -1861,7 +1850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262b97ce-aa16-4293-be53-7ddfef8bd36b")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 134.6263 109.22 90)
 			(effects
 				(font
@@ -1869,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "0.1uF"
 			(at 134.6263 111.76 90)
 			(effects
 				(font
@@ -1913,7 +1902,7 @@
 		(instances
 			(project "lesson2"
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/aed31a99-faa8-4ba4-96c0-f97b18d51065"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47328a06-2634-4c3d-9d3b-10e18e7dbccb")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 218.44 109.1498 0)
 			(effects
 				(font
@@ -2152,7 +2141,7 @@
 		(instances
 			(project ""
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/aed31a99-faa8-4ba4-96c0-f97b18d51065"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2232,10 +2221,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52c0d49b-0a3e-4ddd-a4ce-7afa1082ddec")
 		(property "Reference" "JP2"
-			(at 143.51 109.8549 90)
+			(at 138.176 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,10 +2430,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d1a9811-575a-420a-9550-01dbb6ef60bd")
 		(property "Reference" "JP1"
-			(at 137.16 120.65 0)
+			(at 137.16 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)

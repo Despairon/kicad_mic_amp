@@ -7,19 +7,195 @@
 	(title_block
 		(title "USB mic")
 		(date "2025-05-26")
-		(rev "0.1")
+		(rev "0.2")
 		(company "Maksym Rybalskyi <MaxDespairon@gmail.com>")
 	)
 	(lib_symbols)
+	(junction
+		(at 58.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac7cb5b-92bb-4cce-8ab7-7f0a922d531e")
+	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 135.89 39.37)
+			(xy 121.92 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20ea721f-fd30-4bb9-b5ec-3a925c63c4f1")
+		(uuid "16c8aabb-8c79-4bd3-98a8-113eac8b1b21")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 20.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8015e8-896f-41b8-8019-bb85bdf61f77")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3e06fa-3044-4d0f-89a9-8e9febccfe9f")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c37b83-185b-4e28-9fde-fac1ca999f3b")
+	)
+	(wire
+		(pts
+			(xy 86.36 17.78) (xy 86.36 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36787fcc-e603-4eb3-9e5a-707cb3650189")
+	)
+	(wire
+		(pts
+			(xy 20.32 50.8) (xy 25.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3a0dac-79a3-484e-ac1c-00d87a7bdf5e")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec05d6f-1c97-42a1-bdc6-c30b46e75866")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b671d5-12aa-4178-821e-fd746dbef329")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e4d826-ecb0-4de7-9b15-63029d227201")
+	)
+	(wire
+		(pts
+			(xy 119.38 24.13) (xy 119.38 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef2373f-b3d5-48dc-b311-3df3dae95a64")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db56a50-3157-4731-ba18-160d38f979ba")
+	)
+	(wire
+		(pts
+			(xy 121.92 24.13) (xy 119.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d320e6-b91b-4c4f-b8a3-2c7658a8185d")
+	)
+	(wire
+		(pts
+			(xy 20.32 88.9) (xy 20.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4100b49-25a5-4cdd-a1c4-55b3d06bcac2")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5969979-8965-4700-af48-22b07a06398b")
+	)
+	(wire
+		(pts
+			(xy 119.38 17.78) (xy 86.36 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ece161-f95c-460d-a668-82f1acb6dfe2")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b119c067-74b2-495d-8adb-9f332fe2bbea")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65c0558-a35e-47e7-acc0-150d56f020d9")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77d9aa1-72e4-44a5-885f-e0be8bb7ebd2")
 	)
 	(sheet
 		(at 25.4 101.6)
@@ -55,8 +231,58 @@
 				(justify left top)
 			)
 		)
+		(pin "*SSPND" output
+			(at 58.42 101.6 90)
+			(uuid "f80c1cdb-637e-42f2-8752-89f2fd305e1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMPOUT" input
+			(at 119.38 101.6 90)
+			(uuid "f5f4b885-362f-4847-8698-2c81f5b3df9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_R" input
+			(at 127 121.92 0)
+			(uuid "9df44e82-044c-4078-9557-89569334d1a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" output
+			(at 127 118.11 0)
+			(uuid "6a8a99d2-0504-4701-ba8f-a5eec7addc4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" output
+			(at 127 114.3 0)
+			(uuid "86dec8ae-5c7d-4fe7-9483-4c4683592817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "lesson2"
+			(project "kicad_mic_amp"
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
 					(page "4")
 				)
@@ -97,8 +323,48 @@
 				(justify left top)
 			)
 		)
+		(pin "MIC+" output
+			(at 152.4 109.22 180)
+			(uuid "d932f98c-afda-486b-a332-dc4a2547af18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_R" output
+			(at 152.4 121.92 180)
+			(uuid "b0216aa3-eabf-4ff3-aaf2-733e1a7a4f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 152.4 118.11 180)
+			(uuid "ae9655af-1e1d-4033-8bce-b00381d3ecf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+" input
+			(at 152.4 114.3 180)
+			(uuid "b5b8c82c-3b45-4ab0-85e3-db1f74a967aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "lesson2"
+			(project "kicad_mic_amp"
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
 					(page "5")
 				)
@@ -106,7 +372,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 27.94)
+		(at 121.92 20.32)
 		(size 92.71 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -122,7 +388,7 @@
 		)
 		(uuid "aed31a99-faa8-4ba4-96c0-f97b18d51065")
 		(property "Sheetname" "Amplifier"
-			(at 25.4 27.2284 0)
+			(at 121.92 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +397,7 @@
 			)
 		)
 		(property "Sheetfile" "amplifier.kicad_sch"
-			(at 25.4 86.9446 0)
+			(at 121.92 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,37 +406,47 @@
 			)
 		)
 		(pin "VBIAS" input
-			(at 118.11 39.37 0)
+			(at 121.92 24.13 180)
 			(uuid "cc333e2c-a2b7-461e-876a-3d680b322b84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "*SSPND" input
-			(at 118.11 58.42 0)
+			(at 121.92 50.8 180)
 			(uuid "d8ef739a-918e-47d9-ad8c-4d47edc09260")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "AMPOUT" output
-			(at 118.11 80.01 0)
+			(at 121.92 74.93 180)
 			(uuid "6d460de2-53a3-474f-8b69-441500714582")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "MIC+" input
+			(at 149.86 78.74 270)
+			(uuid "f67eab5e-9adf-4542-9b63-e06e6d7f7f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
-			(project "lesson2"
+			(project "kicad_mic_amp"
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
 					(page "2")
 				)
@@ -178,8 +454,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 34.29)
-		(size 41.91 29.21)
+		(at 25.4 20.32)
+		(size 81.788 58.674)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -194,7 +470,7 @@
 		)
 		(uuid "b6fbeffe-7e55-4f10-a8ab-72b4928b7916")
 		(property "Sheetname" "Power"
-			(at 135.89 33.5784 0)
+			(at 25.4 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +479,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 135.89 64.0846 0)
+			(at 25.4 79.5786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +488,7 @@
 			)
 		)
 		(pin "*SSPND" input
-			(at 135.89 58.42 180)
+			(at 25.4 50.8 180)
 			(uuid "ae8e92ba-1c2b-43ad-a13b-7928a337cd67")
 			(effects
 				(font
@@ -222,17 +498,17 @@
 			)
 		)
 		(pin "VBIAS" output
-			(at 135.89 39.37 180)
+			(at 86.36 20.32 90)
 			(uuid "adc24fa8-78e3-4bfe-aad1-7cc661de1c18")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
-			(project "lesson2"
+			(project "kicad_mic_amp"
 				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
 					(page "3")
 				)
