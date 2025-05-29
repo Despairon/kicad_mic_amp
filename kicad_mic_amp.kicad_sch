@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eb1afd54-626c-4526-850f-b0511eb9dc59")
+	(paper "A4")
+	(title_block
+		(title "USB mic")
+		(date "2025-05-26")
+		(rev "0.1")
+		(company "Maksym Rybalskyi <MaxDespairon@gmail.com>")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 118.11 39.37) (xy 135.89 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ea721f-fd30-4bb9-b5ec-3a925c63c4f1")
+	)
+	(sheet
+		(at 25.4 101.6)
+		(size 101.6 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40fe25a3-4d86-4a6f-b65f-f3723270c1e1")
+		(property "Sheetname" "Codec"
+			(at 25.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 25.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lesson2"
+				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 101.6)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9643d481-3898-40ec-96ff-319a188d3022")
+		(property "Sheetname" "Connectors"
+			(at 152.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 152.4 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lesson2"
+				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 27.94)
+		(size 92.71 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aed31a99-faa8-4ba4-96c0-f97b18d51065")
+		(property "Sheetname" "Amplifier"
+			(at 25.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amplifier.kicad_sch"
+			(at 25.4 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBIAS" input
+			(at 118.11 39.37 0)
+			(uuid "cc333e2c-a2b7-461e-876a-3d680b322b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "*SSPND" input
+			(at 118.11 58.42 0)
+			(uuid "d8ef739a-918e-47d9-ad8c-4d47edc09260")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMPOUT" output
+			(at 118.11 80.01 0)
+			(uuid "6d460de2-53a3-474f-8b69-441500714582")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lesson2"
+				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 34.29)
+		(size 41.91 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6fbeffe-7e55-4f10-a8ab-72b4928b7916")
+		(property "Sheetname" "Power"
+			(at 135.89 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 135.89 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "*SSPND" input
+			(at 135.89 58.42 180)
+			(uuid "ae8e92ba-1c2b-43ad-a13b-7928a337cd67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBIAS" output
+			(at 135.89 39.37 180)
+			(uuid "adc24fa8-78e3-4bfe-aad1-7cc661de1c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lesson2"
+				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
