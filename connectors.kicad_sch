@@ -7,7 +7,7 @@
 	(title_block
 		(title "Connectors")
 		(date "2025-05-29")
-		(rev "0.1")
+		(rev "0.3")
 		(company "Maksym Rybalskyi <MaxDespairon@gmail.com>")
 	)
 	(lib_symbols

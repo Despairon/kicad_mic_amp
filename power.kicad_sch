@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power")
 		(date "2025-05-26")
-		(rev "0.1")
+		(rev "0.3")
 		(company "Maksym Rybalskyi <Maxdespairon@gmail.com>")
 	)
 	(lib_symbols
@@ -1083,7 +1083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05c981fc-1af7-4bf4-94c7-120c81cfcaee")
-		(property "Reference" "U2"
+		(property "Reference" "U"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -1127,28 +1127,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "eec1ef2d-58e9-4382-9a75-301b3af15af7")
+			(uuid "1bf5bf56-669d-438b-9b17-8e6c705385be")
 		)
 		(pin "1"
-			(uuid "070f525b-81f5-4c9d-a171-1fb76d2dd83f")
+			(uuid "d841549b-ff10-4aae-a36a-178170099d23")
 		)
 		(pin "2"
-			(uuid "2432b97e-c355-44f8-9a6d-df51eec2c39f")
+			(uuid "c613059f-c171-4730-acb3-e732f8e89c55")
 		)
 		(pin "5"
-			(uuid "6daa38fb-d9c2-4813-b934-d2d23249c705")
+			(uuid "160688e0-1786-4f3e-9d58-d0ff506118e0")
 		)
 		(pin "4"
-			(uuid "4bbced37-1dc4-4a7e-b6a4-1c3aa28fabeb")
+			(uuid "ec5ae93b-e865-4deb-8f19-2daa24902a17")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -1160,7 +1153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116faa76-8973-4246-ac4c-d1a0e2756ba1")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR"
 			(at 118.11 133.35 0)
 			(effects
 				(font
@@ -1205,16 +1198,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa7e0536-f023-47cd-9afe-df573ccf26c7")
+			(uuid "dad625f8-8022-4c76-8ddd-f855fba06007")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -1226,7 +1212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289b1035-7d8c-4b35-8fc7-77044ae3c886")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -1271,16 +1257,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e9caf93-c440-418c-ba72-994cd2a7483a")
+			(uuid "74578ff3-6614-4893-9c16-069b342f4447")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5365-3.0YC5")
@@ -1292,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6367dc-e065-4d39-a50d-bd7b0fefefa3")
-		(property "Reference" "U3"
+		(property "Reference" "U"
 			(at 133.35 121.92 0)
 			(effects
 				(font
@@ -1336,28 +1315,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "3a44cd8b-937e-40af-9289-7a7e29d57d70")
+			(uuid "a91fc683-6070-40fd-95b5-a47ca674729d")
 		)
 		(pin "2"
-			(uuid "d4c02f72-ff56-4a6a-be1f-a2a951936cd4")
+			(uuid "6158d058-2d3b-44cd-a5c0-397b176a5e4d")
 		)
 		(pin "5"
-			(uuid "8b728a21-190c-405c-b22c-4a84b97e315b")
+			(uuid "ac143d84-9f72-4dbf-936e-89d25aaf2fbe")
 		)
 		(pin "4"
-			(uuid "096bf493-cb2d-4690-a9b0-6eec9a9fb647")
+			(uuid "041dda74-7475-48dd-be11-a512dca6a86e")
 		)
 		(pin "1"
-			(uuid "9b2a1d9a-f9f6-443a-a67b-f249c1e5265a")
+			(uuid "2a18a957-c582-4bb0-a682-64487a2fde74")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1369,7 +1341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56aee651-2274-4ef4-94cc-6956a9a0e827")
-		(property "Reference" "C6"
+		(property "Reference" "C"
 			(at 104.14 102.8762 0)
 			(effects
 				(font
@@ -1415,19 +1387,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b53fd77-0c50-4a6b-b08a-f8d419ad24f5")
+			(uuid "cdec5723-1621-4766-9b98-39e884d581a3")
 		)
 		(pin "1"
-			(uuid "1562ec6e-e52e-49bc-885e-55d94332fe7c")
+			(uuid "7e18745b-8d68-4a79-ba0b-209db49e56f1")
 		)
-		(instances
-			(project "lesson2"
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1439,7 +1404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64352388-b726-488f-a611-33e46ea29a1c")
-		(property "Reference" "C8"
+		(property "Reference" "C"
 			(at 148.59 132.0862 0)
 			(effects
 				(font
@@ -1485,19 +1450,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "29ae3a7c-689e-495e-a50f-cba354b66002")
+			(uuid "4fa4ed9d-076b-4ac2-a5bc-a5004f8fc526")
 		)
 		(pin "1"
-			(uuid "fe251565-9b8e-4e70-9ced-854a6455e50a")
+			(uuid "edfeb1ad-89cb-42b2-ae35-57ae7bb6ae74")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1509,7 +1467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650d7721-f8a2-4cf8-ba59-ae30a3c67db2")
-		(property "Reference" "C7"
+		(property "Reference" "C"
 			(at 148.59 102.8762 0)
 			(effects
 				(font
@@ -1555,19 +1513,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a2450c3-5be1-42f6-82d1-6e8182e6103c")
+			(uuid "f35ea72f-26ba-46f9-b9a0-9295c71028f6")
 		)
 		(pin "1"
-			(uuid "f412f23b-1a99-4320-bfd1-ff0078777872")
+			(uuid "716f66f4-ab23-4a59-9bc0-7e44c132913f")
 		)
-		(instances
-			(project "lesson2"
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1579,7 +1530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7de7f5d4-9532-45c0-95b1-ea3d81a4f148")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -1624,16 +1575,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aee352e-8b72-43a5-9229-6a4a8ffcdaaa")
+			(uuid "52b00849-1000-44e1-8247-d505bfa3e039")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1645,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d3196e-a663-402e-880b-9a95fb671376")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR"
 			(at 132.08 118.11 0)
 			(effects
 				(font
@@ -1690,16 +1634,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "59d853cf-e862-49b3-90c3-b130967e6074")
+			(uuid "a0cf7d0d-4e4a-41c7-87f9-faf02695732d")
 		)
-		(instances
-			(project "lesson2"
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -1711,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9044f45-c19b-4f6f-9ea9-6eca9e265767")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -1756,15 +1693,8 @@
 			)
 		)
 		(pin "1"
-			(uuid "467848c0-ea4e-4968-9067-1538a471979b")
+			(uuid "f2239709-b7e9-4f91-a320-c9a54780da3d")
 		)
-		(instances
-			(project ""
-				(path "/eb1afd54-626c-4526-850f-b0511eb9dc59/b6fbeffe-7e55-4f10-a8ab-72b4928b7916"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
+		(instances)
 	)
 )

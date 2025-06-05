@@ -7,7 +7,7 @@
 	(title_block
 		(title "Amplifier")
 		(date "2025-05-26")
-		(rev "0.1")
+		(rev "0.3")
 		(company "Maksym Rybalskyi <Maxdespairon@gmail.com>")
 	)
 	(lib_symbols
